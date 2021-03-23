@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9hn-DK-3eo" userLabel="View red">
-                                <rect key="frame" x="20" y="450.5" width="374" height="396.5"/>
+                                <rect key="frame" x="20" y="458.5" width="374" height="398.5"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="47Y-25-vME" userLabel="View green">
-                                <rect key="frame" x="20" y="54" width="374" height="387.5"/>
+                                <rect key="frame" x="20" y="54" width="374" height="389.5"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
@@ -29,7 +29,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="9hn-DK-3eo" firstAttribute="centerX" secondItem="yxg-JE-PqT" secondAttribute="centerX" id="43I-Ew-FyP"/>
-                            <constraint firstItem="QaY-qt-Mk3" firstAttribute="bottom" secondItem="9hn-DK-3eo" secondAttribute="bottom" constant="15" id="DOb-YT-TR1"/>
+                            <constraint firstItem="QaY-qt-Mk3" firstAttribute="bottom" secondItem="9hn-DK-3eo" secondAttribute="bottom" constant="5" id="DOb-YT-TR1"/>
                             <constraint firstItem="47Y-25-vME" firstAttribute="top" secondItem="QaY-qt-Mk3" secondAttribute="top" constant="10" id="Y7A-rF-vPW"/>
                             <constraint firstItem="47Y-25-vME" firstAttribute="height" secondItem="9hn-DK-3eo" secondAttribute="height" multiplier="0.976191" id="YGS-oM-sY5"/>
                             <constraint firstItem="47Y-25-vME" firstAttribute="centerX" secondItem="yxg-JE-PqT" secondAttribute="centerX" id="b1I-Ab-ZP8"/>
@@ -37,7 +37,7 @@
                             <constraint firstItem="47Y-25-vME" firstAttribute="leading" secondItem="QaY-qt-Mk3" secondAttribute="leading" constant="20" id="jAC-1r-Rex"/>
                             <constraint firstItem="9hn-DK-3eo" firstAttribute="leading" secondItem="QaY-qt-Mk3" secondAttribute="leading" constant="20" id="m7z-yk-9jN"/>
                             <constraint firstItem="QaY-qt-Mk3" firstAttribute="trailing" secondItem="47Y-25-vME" secondAttribute="trailing" constant="20" id="sre-qi-0pi"/>
-                            <constraint firstItem="9hn-DK-3eo" firstAttribute="top" secondItem="47Y-25-vME" secondAttribute="bottom" constant="9" id="xHE-Cr-1xx"/>
+                            <constraint firstItem="9hn-DK-3eo" firstAttribute="top" secondItem="47Y-25-vME" secondAttribute="bottom" constant="15" id="xHE-Cr-1xx"/>
                             <constraint firstItem="9hn-DK-3eo" firstAttribute="width" secondItem="47Y-25-vME" secondAttribute="width" id="y0a-NL-KNF"/>
                         </constraints>
                     </view>
